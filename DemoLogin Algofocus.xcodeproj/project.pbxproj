@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94093BEB1FF69885002623A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94093BEA1FF69885002623A7 /* AppDelegate.swift */; };
+		94093BED1FF69885002623A7 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94093BEC1FF69885002623A7 /* SignInVC.swift */; };
+		94093BF01FF69885002623A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94093BEE1FF69885002623A7 /* Main.storyboard */; };
+		94093BF21FF69885002623A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94093BF11FF69885002623A7 /* Assets.xcassets */; };
+		94093BF51FF69885002623A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94093BF31FF69885002623A7 /* LaunchScreen.storyboard */; };
+		940AA7241FF6C9A500656136 /* FancyTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940AA7231FF6C9A500656136 /* FancyTopView.swift */; };
+		940AA7281FF6CB2000656136 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940AA7271FF6CB2000656136 /* Constants.swift */; };
+		940AA72C1FF6D69D00656136 /* FancyBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940AA72B1FF6D69D00656136 /* FancyBottomView.swift */; };
+		940AA7321FF6D91800656136 /* FancyTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940AA7311FF6D91800656136 /* FancyTextFields.swift */; };
+		940AA7341FF6DA2600656136 /* FancyButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940AA7331FF6DA2600656136 /* FancyButtonWithImage.swift */; };
+		940AA7361FF6DA4100656136 /* FancyButtonWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940AA7351FF6DA4100656136 /* FancyButtonWithText.swift */; };
+		940AA7381FF6E4AD00656136 /* UserDetailsDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940AA7371FF6E4AD00656136 /* UserDetailsDisplayVC.swift */; };
+		943174C01FFC0F43006ABFF1 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943174BF1FFC0F43006ABFF1 /* FancyLabel.swift */; };
+		948D92E61FF754D200887C2B /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D92E51FF754D200887C2B /* UserDetails.swift */; };
+		949B79111FFBDF6C00169D19 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949B790E1FFBDF6C00169D19 /* Bolts.framework */; };
+		949B79121FFBDF6C00169D19 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949B790F1FFBDF6C00169D19 /* FBSDKCoreKit.framework */; };
+		949B79131FFBDF6D00169D19 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949B79101FFBDF6C00169D19 /* FBSDKLoginKit.framework */; };
+		94DF44431FFCF0E3000B7D98 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DF44421FFCF0E3000B7D98 /* CoreLocation.framework */; };
+		94DF44451FFCFD93000B7D98 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF44441FFCFD93000B7D98 /* Location.swift */; };
+		D811E4A5DE0B1786DB41FC0D /* Pods_DemoLogin_Algofocus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31296F54B99ABF027E283E16 /* Pods_DemoLogin_Algofocus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16F397BA1522610CC726BA7A /* Pods-DemoLogin Algofocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLogin Algofocus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLogin Algofocus/Pods-DemoLogin Algofocus.debug.xcconfig"; sourceTree = "<group>"; };
+		31296F54B99ABF027E283E16 /* Pods_DemoLogin_Algofocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoLogin_Algofocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94093BE71FF69885002623A7 /* DemoLogin Algofocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoLogin Algofocus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94093BEA1FF69885002623A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94093BEC1FF69885002623A7 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		94093BEF1FF69885002623A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94093BF11FF69885002623A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94093BF41FF69885002623A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94093BF61FF69885002623A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940AA7231FF6C9A500656136 /* FancyTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTopView.swift; sourceTree = "<group>"; };
+		940AA7271FF6CB2000656136 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		940AA72B1FF6D69D00656136 /* FancyBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBottomView.swift; sourceTree = "<group>"; };
+		940AA7311FF6D91800656136 /* FancyTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextFields.swift; sourceTree = "<group>"; };
+		940AA7331FF6DA2600656136 /* FancyButtonWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButtonWithImage.swift; sourceTree = "<group>"; };
+		940AA7351FF6DA4100656136 /* FancyButtonWithText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButtonWithText.swift; sourceTree = "<group>"; };
+		940AA7371FF6E4AD00656136 /* UserDetailsDisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsDisplayVC.swift; sourceTree = "<group>"; };
+		943174BE1FFBEBDB006ABFF1 /* DemoLogin Algofocus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DemoLogin Algofocus.entitlements"; sourceTree = "<group>"; };
+		943174BF1FFC0F43006ABFF1 /* FancyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyLabel.swift; sourceTree = "<group>"; };
+		948D92E51FF754D200887C2B /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		949B790E1FFBDF6C00169D19 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Library/Developer/Xcode/DerivedData/DemoLogin_Algofocus-dvrvrdhtrxztwjfukazjisasqvgd/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		949B790F1FFBDF6C00169D19 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Library/Developer/Xcode/DerivedData/DemoLogin_Algofocus-dvrvrdhtrxztwjfukazjisasqvgd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		949B79101FFBDF6C00169D19 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Library/Developer/Xcode/DerivedData/DemoLogin_Algofocus-dvrvrdhtrxztwjfukazjisasqvgd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		94DF44421FFCF0E3000B7D98 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		94DF44441FFCFD93000B7D98 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EFB794E36B253ACA6F7D2EB3 /* Pods-DemoLogin Algofocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLogin Algofocus.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLogin Algofocus/Pods-DemoLogin Algofocus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94093BE41FF69885002623A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DF44431FFCF0E3000B7D98 /* CoreLocation.framework in Frameworks */,
+				949B79111FFBDF6C00169D19 /* Bolts.framework in Frameworks */,
+				949B79121FFBDF6C00169D19 /* FBSDKCoreKit.framework in Frameworks */,
+				949B79131FFBDF6D00169D19 /* FBSDKLoginKit.framework in Frameworks */,
+				D811E4A5DE0B1786DB41FC0D /* Pods_DemoLogin_Algofocus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94093BDE1FF69885002623A7 = {
+			isa = PBXGroup;
+			children = (
+				94093BE91FF69885002623A7 /* DemoLogin Algofocus */,
+				94093BE81FF69885002623A7 /* Products */,
+				A90EB0E16D3D8CE004C0031C /* Pods */,
+				F498386994D22949409A3806 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94093BE81FF69885002623A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94093BE71FF69885002623A7 /* DemoLogin Algofocus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94093BE91FF69885002623A7 /* DemoLogin Algofocus */ = {
+			isa = PBXGroup;
+			children = (
+				943174BE1FFBEBDB006ABFF1 /* DemoLogin Algofocus.entitlements */,
+				94093BEA1FF69885002623A7 /* AppDelegate.swift */,
+				940AA7261FF6CB0100656136 /* Utilities */,
+				94093BFE1FF698B5002623A7 /* Model */,
+				94093BFD1FF698A9002623A7 /* View */,
+				94093BFC1FF6989E002623A7 /* Controller */,
+				94093BEE1FF69885002623A7 /* Main.storyboard */,
+				94093BF31FF69885002623A7 /* LaunchScreen.storyboard */,
+				94093BF11FF69885002623A7 /* Assets.xcassets */,
+				94093BF61FF69885002623A7 /* Info.plist */,
+			);
+			path = "DemoLogin Algofocus";
+			sourceTree = "<group>";
+		};
+		94093BFC1FF6989E002623A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94093BEC1FF69885002623A7 /* SignInVC.swift */,
+				940AA7371FF6E4AD00656136 /* UserDetailsDisplayVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		94093BFD1FF698A9002623A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				940AA7231FF6C9A500656136 /* FancyTopView.swift */,
+				940AA72B1FF6D69D00656136 /* FancyBottomView.swift */,
+				940AA7311FF6D91800656136 /* FancyTextFields.swift */,
+				940AA7331FF6DA2600656136 /* FancyButtonWithImage.swift */,
+				940AA7351FF6DA4100656136 /* FancyButtonWithText.swift */,
+				943174BF1FFC0F43006ABFF1 /* FancyLabel.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		94093BFE1FF698B5002623A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				948D92E51FF754D200887C2B /* UserDetails.swift */,
+				94DF44441FFCFD93000B7D98 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		940AA7261FF6CB0100656136 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				940AA7271FF6CB2000656136 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A90EB0E16D3D8CE004C0031C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F397BA1522610CC726BA7A /* Pods-DemoLogin Algofocus.debug.xcconfig */,
+				EFB794E36B253ACA6F7D2EB3 /* Pods-DemoLogin Algofocus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F498386994D22949409A3806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94DF44421FFCF0E3000B7D98 /* CoreLocation.framework */,
+				949B790E1FFBDF6C00169D19 /* Bolts.framework */,
+				949B790F1FFBDF6C00169D19 /* FBSDKCoreKit.framework */,
+				949B79101FFBDF6C00169D19 /* FBSDKLoginKit.framework */,
+				31296F54B99ABF027E283E16 /* Pods_DemoLogin_Algofocus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94093BE61FF69885002623A7 /* DemoLogin Algofocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94093BF91FF69885002623A7 /* Build configuration list for PBXNativeTarget "DemoLogin Algofocus" */;
+			buildPhases = (
+				602952C3490140338C2376DB /* [CP] Check Pods Manifest.lock */,
+				94093BE31FF69885002623A7 /* Sources */,
+				94093BE41FF69885002623A7 /* Frameworks */,
+				94093BE51FF69885002623A7 /* Resources */,
+				70B325D75D613D5FB3C1F1BC /* [CP] Embed Pods Frameworks */,
+				D23060BB9D334100C8D825FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoLogin Algofocus";
+			productName = "DemoLogin Algofocus";
+			productReference = 94093BE71FF69885002623A7 /* DemoLogin Algofocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94093BDF1FF69885002623A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chaudhary Himanshu Raj";
+				TargetAttributes = {
+					94093BE61FF69885002623A7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Z8NGV6P465;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 94093BE21FF69885002623A7 /* Build configuration list for PBXProject "DemoLogin Algofocus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94093BDE1FF69885002623A7;
+			productRefGroup = 94093BE81FF69885002623A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94093BE61FF69885002623A7 /* DemoLogin Algofocus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94093BE51FF69885002623A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94093BF51FF69885002623A7 /* LaunchScreen.storyboard in Resources */,
+				94093BF21FF69885002623A7 /* Assets.xcassets in Resources */,
+				94093BF01FF69885002623A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		602952C3490140338C2376DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70B325D75D613D5FB3C1F1BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoLogin Algofocus/Pods-DemoLogin Algofocus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23060BB9D334100C8D825FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoLogin Algofocus/Pods-DemoLogin Algofocus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94093BE31FF69885002623A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94093BED1FF69885002623A7 /* SignInVC.swift in Sources */,
+				940AA72C1FF6D69D00656136 /* FancyBottomView.swift in Sources */,
+				940AA7361FF6DA4100656136 /* FancyButtonWithText.swift in Sources */,
+				940AA7341FF6DA2600656136 /* FancyButtonWithImage.swift in Sources */,
+				940AA7381FF6E4AD00656136 /* UserDetailsDisplayVC.swift in Sources */,
+				94093BEB1FF69885002623A7 /* AppDelegate.swift in Sources */,
+				940AA7321FF6D91800656136 /* FancyTextFields.swift in Sources */,
+				940AA7241FF6C9A500656136 /* FancyTopView.swift in Sources */,
+				943174C01FFC0F43006ABFF1 /* FancyLabel.swift in Sources */,
+				940AA7281FF6CB2000656136 /* Constants.swift in Sources */,
+				94DF44451FFCFD93000B7D98 /* Location.swift in Sources */,
+				948D92E61FF754D200887C2B /* UserDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94093BEE1FF69885002623A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94093BEF1FF69885002623A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94093BF31FF69885002623A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94093BF41FF69885002623A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94093BF71FF69885002623A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94093BF81FF69885002623A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94093BFA1FF69885002623A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F397BA1522610CC726BA7A /* Pods-DemoLogin Algofocus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DemoLogin Algofocus/DemoLogin Algofocus.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8NGV6P465;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Facebook\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "DemoLogin Algofocus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHR.DemoLogin-AlgofocusApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94093BFB1FF69885002623A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB794E36B253ACA6F7D2EB3 /* Pods-DemoLogin Algofocus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DemoLogin Algofocus/DemoLogin Algofocus.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8NGV6P465;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Facebook\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Required\\ Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "DemoLogin Algofocus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHR.DemoLogin-AlgofocusApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94093BE21FF69885002623A7 /* Build configuration list for PBXProject "DemoLogin Algofocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94093BF71FF69885002623A7 /* Debug */,
+				94093BF81FF69885002623A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94093BF91FF69885002623A7 /* Build configuration list for PBXNativeTarget "DemoLogin Algofocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94093BFA1FF69885002623A7 /* Debug */,
+				94093BFB1FF69885002623A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94093BDF1FF69885002623A7 /* Project object */;
+}

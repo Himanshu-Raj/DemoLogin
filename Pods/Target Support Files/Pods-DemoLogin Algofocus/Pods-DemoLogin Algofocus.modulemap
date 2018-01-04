@@ -1,0 +1,6 @@
+framework module Pods_DemoLogin_Algofocus {
+  umbrella header "Pods-DemoLogin Algofocus-umbrella.h"
+
+  export *
+  module * { export * }
+}
